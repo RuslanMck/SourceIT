@@ -3,7 +3,6 @@ import java.util.Arrays;
 public class ChoiceSorting {
 
     public static void main(String[] args) {
-
         int arr[] = {4, 7, 1, 9, 2, 5, 3, 6, 8};
         System.out.println(Arrays.toString(arr));
         arraySorting(arr);
@@ -26,7 +25,6 @@ public class ChoiceSorting {
                 arr[i] = arr [idx];
                 arr[idx] = tmp;
             }
-        }
-        return arr;
+        } return arr;
     }
 }
